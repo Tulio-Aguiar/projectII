@@ -1,0 +1,60 @@
+html {
+    font-size:7mm;
+}
+
+body {
+    margin:0 auto;
+}
+
+h2 {
+
+    font-size: 12mm;
+    background-color:grey;
+    color:aliceblue;
+    font-family: 'Helvetica';
+    text-shadow:1.5mm;
+}
+
+h2:after {
+    content: ' \00A7';
+  }
+
+article {
+    box-shadow: 15mm;
+    background-color:grey;
+    border:6px solid black;
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: 5px;
+
+}
+
+article p {
+    color:white;
+    margin-left: 24px;
+}
+
+article ul {
+    list-style: disc;
+}
+
+.lista.um {
+    background-color:white;
+    font-size: 0,7cm;
+}
+
+.lista.dois {
+    color:aliceblue;
+    font-size: 1cm;
+}
+
+.lista.tres{
+    background-color:white;
+    font-size: 1.2cm;
+}
+
+.last {
+    color:white;
+    margin-left: 20px;
+    font-size:80px;
+}

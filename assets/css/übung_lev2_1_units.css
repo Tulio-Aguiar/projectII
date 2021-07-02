@@ -1,0 +1,60 @@
+body {
+    margin:0 auto;
+}
+
+h1 {
+    text-align:center;
+    
+}
+
+p {
+    
+    text-align: center;
+    margin-right: 50px;
+    
+}
+
+section {
+    box-shadow: 15mm;
+    border:3px solid black;
+    margin: 10px 600px;
+    padding: 20px;
+}
+
+section ul {
+    padding-inline-start: 1.2;
+    list-style-type:none;
+    
+}
+
+section ul li  {
+    line-height:1.2em;
+    
+}
+
+.dogs li::before{
+    content: "🐶"
+}
+
+.cats li::before{
+    content: "😺";
+}
+
+/*section>ul>li:first-child>ul>li:nth-child(2)>ul>li::before {
+ content:"😺";
+} */
+
+.birds li::before {
+    content:"🐦"; 
+}
+
+.snakes li::before{
+    content: "🐍"
+}
+
+.lizzards li::before {
+    content: "🦎";
+}
+
+
+

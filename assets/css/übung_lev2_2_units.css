@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin:0 auto;
+    
+}
+
+header {
+    background:url(../img/img1.jpg) center/cover no-repeat ;
+    padding:450px;
+    
+}
+
+header h3 {
+
+    /*display:block;
+    font-size: 1.5em;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5) ; 
+    color:aliceblue;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 50px 10px 100px; */
+
+    /*   
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background: #ECECEC;
+    z-index: 2;*/
+
+    margin: 0 auto;
+    width: 95%;
+    text-align:center;
+    font-size: 1.5em;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color:aliceblue;
+    min-height: 40px;
+    position: fixed;
+    top: 5px;
+    right: 0;
+    left: 0;
+    
+}
+

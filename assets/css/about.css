@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+#navigation{
+    background: #333;
+    color:#fff;
+}
+a{
+    color:#fff;
+}
+#design-quality,#about1{
+    height: 100vh;
+    background: gold;
+}
+#satisfaction,#about2{
+    height: 100vh;
+    background: tomato;
+}
+#learning,#about3{
+    height: 100vh;
+    background: lightblue;
+}

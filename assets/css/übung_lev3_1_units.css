@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin:0 auto;
+    
+}
+
+section {
+    background:url(../img/vale.jpg) center/cover no-repeat ;
+    padding:450px;
+    
+}
+
+h1 {
+    margin: 0 auto;
+    width: 95%;
+    text-align:center;
+    font-size: 1.5em;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color:aliceblue;
+    min-height: 75px;
+    max-height: 10px;
+    position: fixed;
+    top: 5px;
+    right: 0;
+    left: 0;
+}
+
+article {
+    min-height: 50px;
+    position: fixed;
+    top: -5px;
+    right: 0;
+    left: 0;
+    bottom: -50px;
+
+}
